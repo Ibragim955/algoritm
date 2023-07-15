@@ -7,6 +7,7 @@ public interface StringList {
             // в качестве результата выполнения.
             String add(String item) throws StorageIsFullExeption, NullItemExeption;
 
+
             // Добавление элемента
             // на определенную позицию списка.
             // Если выходит за пределы фактического
